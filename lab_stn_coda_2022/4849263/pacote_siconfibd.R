@@ -1,7 +1,10 @@
 devtools::install_github("tchiluanda/siconfiBD")
 library(siconfiBD)
 
-#Faz a conexão com o BD
+#Faz a conexão com o BD. O argumento deve ser substituído pelo seu projeto no googlecloud.
+#Para saber como criar um projeto no google cloud acesse: 
+#https://github.com/fernandobarbalho/lab_coda_2022
+
 siconfiBD::setup_siconfi("nice-diorama-306223")
 
 
